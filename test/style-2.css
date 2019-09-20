@@ -1,0 +1,24 @@
+/* #=referere ril et ID (kan kun bruges en gang) */
+/* .=referere til en klasse (class). En klasse kan bruges flere gange */
+
+body { background-color: #979898;}
+.container {display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 1200px;
+            align-items: flex-start;}
+
+#kasse1 {background-color: coral;
+            width: 50%;}
+#kasse2 {background-color: lightblue;
+        width: 50%;}
+.kasse3 {background-color: pink;
+        margin: 40px;
+        padding: 20px;
+        border: 1px solid #333;}
+.special {order: -1; }
+.tilsidst {order: 1;}
+
+.toben {color: palevioletred;}
+.fireben {color: cornflowerblue;}
+.highlight {background-color: yellow;}
